@@ -1,0 +1,58 @@
+/* Portfolio.css */
+
+section {
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section > div > div {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+section h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+section a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+section a:hover {
+  background-color: #0056b3;
+}
+
+section a:not(:last-child) {
+  margin-right: 10px;
+}

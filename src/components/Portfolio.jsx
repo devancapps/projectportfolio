@@ -1,24 +1,27 @@
 import React from 'react';
 
+import '../style/Portfolio.css';
+
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
-      image: 'path_to_project',
-      link: 'deployed_link_project',
-      repo: 'github_repo_link_project'
+      // path to myfantastdraft.jpg in images folder
+      title: 'An NBA Fantasy Draft Application',
+      image: './images/myfantasydraft.jpg',
+      link: 'https://myfantasydraft-3b76c1450b6a.herokuapp.com/',
+      repo: 'https://github.com/DevonMcfarlen/MyFantasyDraft'
     },
     {
-      title: 'Project 2',
-      image: 'path_to_project',
-      link: 'deployed_link_project',
-      repo: 'github_repo_link_project'
+      title: 'TV Show Queue',
+      image: './images/tvshowqueue.jpg',
+      link: 'https://my-queue-proj2-17f6449399b4.herokuapp.com/',
+      repo: 'https://github.com/devancapps/Binge-Watch'
     },
     {
-      title: 'Project 3',
-      image: 'path_to_project',
-      link: 'deployed_link_project',
-      repo: 'github_repo_link_project'
+      title: 'Weather Dashboard',
+      image: './images/weatherdashboard.jpg',
+      link: 'https://devancapps.github.io/Weather-Dashboard/',
+      repo: 'https://github.com/devancapps/Weather-Dashboard'
     }
   ];
 
