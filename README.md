@@ -11,6 +11,7 @@ This portfolio is designed to give you a glimpse into my abilities as a React de
 - SQL
 - NoSQL
 - Node/Express
+- GraphQL
 
 
 ## Contact
