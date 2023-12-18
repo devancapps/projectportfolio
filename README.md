@@ -19,4 +19,7 @@ Feel free to connect with me:
 - Email: [devancappsdigital@gmail.com]
 - LinkedIn: [www.linkedin.com/in/devancapps]
 
+## Deployed Netlify Portfolio
+https://main--incredible-marigold-89cdbf.netlify.app/about-me
+
 Thank you for visiting my GitHub portfolio!
